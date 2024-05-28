@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+    background-color: #f0f0f0;/
+    
+}
+
+#container {
+    width: 200px; /* Set the width of the container */
+    height: 260px; /* Set the height of the container */
+    background-color: #fff; /* Optional: Set background color */
+    border: 1px solid #000; /* Optional: Add border */
+    flex: display;
+    }
+
+
+
+.grid-container {
+    padding: 10px; /* Optional: Add padding */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Center small boxes horizontally */
+    align-content: space-around; /* Center small boxes vertically */
+}
+
+/* Other styles for small boxes, etc. */
+.row {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing between boxes */
+  margin-bottom: 6px; /* Add margin bottom for spacing */
+  gap: 3px;
+  text-align: center; /* Center text horizontally */
+  height: 30px;
+
+}
+
+.box {
+  width: 30px; /* Adjust width of the small boxes */
+  height: 30px; /* Adjust height of the small boxes */
+  background-color: #ccc; /* Optional: Set background color */
+  border: 1px solid black; /* Optional: Add border */
+  text-align: center;
+  justify-content: center;
+}
+
+#display {
+  
+  width: 170px;
+  height: 40px;
+  background-color: #ccc;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px; /* Add margin bottom for spacing */
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+#solarPanel{
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: grey;
+}
+
+#displayTitle{
+  text-align: right;
+  font-size: 30px;
+  padding: 1px;
+}
+.row div{
+    line-height: 1.8; /* Decrease line height to lower the line */
+
+}
